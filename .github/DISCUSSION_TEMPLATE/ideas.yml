@@ -1,0 +1,31 @@
+title: "Ideas and improvements"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share a product idea, interface suggestion, or quality-of-life improvement. Ideas are not commitments to implement.
+  - type: input
+    id: title
+    attributes:
+      label: Idea title
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your idea
+      description: Describe the proposed feature or improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Examples or additional context
+    validations:
+      required: false
