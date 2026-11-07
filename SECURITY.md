@@ -3,8 +3,7 @@
 ## Reporting a vulnerability
 
 Please do not publish exploitable vulnerability details in a public issue.
-Until a dedicated security address is confirmed, contact the project developer
-privately through the official Axquen Discord:
+Until a dedicated security reporting address is established, vulnerability reports should be submitted privately through the official Axquen Discord server. Contact the project developer to arrange a private and secure reporting channel:
 
 https://discord.gg/StdYxkEXRc
 
