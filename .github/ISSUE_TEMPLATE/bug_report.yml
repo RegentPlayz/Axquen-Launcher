@@ -1,0 +1,106 @@
+name: Bug report
+description: Report a reproducible problem with Axquen Client.
+title: "[Bug]: "
+labels:
+  - bug
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing reports first. Remove passwords, tokens, session data, and personal information from logs and screenshots.
+  - type: input
+    id: axquen_version
+    attributes:
+      label: Axquen version/build
+      description: Include the exact version or build identifier shown by the application.
+      placeholder: "Unknown is acceptable if not displayed"
+    validations:
+      required: true
+  - type: input
+    id: operating_system
+    attributes:
+      label: Operating system
+      placeholder: "Windows edition and version; include Android environment if applicable"
+    validations:
+      required: true
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft version
+      placeholder: "For example, the version selected in your instance"
+    validations:
+      required: true
+  - type: dropdown
+    id: mod_loader
+    attributes:
+      label: Mod loader
+      options:
+        - Fabric
+        - Forge
+        - NeoForge
+        - Quilt
+        - Vanilla / no loader
+        - Other
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: java_version
+    attributes:
+      label: Java version
+      placeholder: "Include runtime version if known"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: What happened? Include the full visible error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Launch...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or crash report
+      description: Paste a sanitized excerpt or link to a safe attachment. Remove secrets and personal data.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add screenshots if they help explain the issue. Check them for private information.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy and security confirmation
+      options:
+        - label: I have removed passwords, access tokens, session files, and other sensitive information.
+          required: true
+  - type: checkboxes
+    id: duplicate_check
+    attributes:
+      label: Existing reports
+      options:
+        - label: I searched for existing issues and did not find the same report.
+          required: true

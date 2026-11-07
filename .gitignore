@@ -1,0 +1,38 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.old
+*.orig
+*.log
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Build outputs and packages (do not commit accidental local artifacts)
+dist/
+build/
+*.zip
+*.7z
+*.rar
+
+# Python validation caches
+__pycache__/
+*.py[cod]
+.pytest_cache/

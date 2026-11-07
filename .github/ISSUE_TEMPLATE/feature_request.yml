@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest an improvement or new Axquen capability.
+title: "[Feature]: "
+labels:
+  - enhancement
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explain the user problem first. Suggestions are reviewed by the project maintainer and are not guarantees of implementation.
+  - type: input
+    id: title
+    attributes:
+      label: Feature title
+      placeholder: A short, descriptive title
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem being addressed
+      description: What limitation or user need would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: How should the feature work from a user's perspective?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Mockups or examples are welcome. Do not upload private or unlicensed material.
+    validations:
+      required: false

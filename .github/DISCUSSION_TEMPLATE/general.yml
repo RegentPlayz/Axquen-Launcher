@@ -1,0 +1,19 @@
+title: "General discussion"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this discussion for questions, community feedback, experiences, and topics that do not belong in a bug report.
+  - type: textarea
+    id: topic
+    attributes:
+      label: What would you like to discuss?
+      description: Share enough context for the community to participate.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional context
+    validations:
+      required: false

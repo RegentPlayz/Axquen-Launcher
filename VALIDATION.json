@@ -1,0 +1,15 @@
+{
+  "file_count": 32,
+  "yaml": [
+    ".github/DISCUSSION_TEMPLATE/ideas.yml",
+    ".github/DISCUSSION_TEMPLATE/general.yml",
+    ".github/ISSUE_TEMPLATE/feature_request.yml",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/config.yml"
+  ],
+  "broken_local_links": [],
+  "missing_images": [],
+  "empty_files": [],
+  "errors": [],
+  "missing_expected_files": []
+}
