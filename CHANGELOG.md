@@ -1,30 +1,27 @@
 # Changelog
 
-All notable Axquen Client changes should be documented here. This file follows
-the general structure of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+All notable changes to Axquen Client are documented in this file.
 
-No historical release entries have been added because verified release notes
-and dates were not supplied for this documentation package.
+This project follows the general structure of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
+## [1.0.0] - 2026-11-07
 
 ### Added
-- Documentation and community infrastructure package.
+- Initial official release of Axquen Client.
+- Initial launcher distribution and release package.
+- Official GitHub repository and download availability.
+- Documentation and community infrastructure.
+- Responsible vulnerability reporting guidance.
 
 ### Changed
-- No verified application changes recorded.
+- Established the initial project structure and release documentation.
 
 ### Fixed
-- No verified application fixes recorded.
-
-### Removed
-- No verified application removals recorded.
+- No previous versions to compare against.
 
 ### Security
-- Added responsible vulnerability reporting guidance.
+- Established guidelines for responsibly reporting security vulnerabilities.
 
 ---
 
-When publishing a release entry, use a real version and release date and
-describe only changes confirmed by the developer. Do not infer application
-release history from screenshots.
+[1.0.0]: https://github.com/RegentPlayz/Axquen-Launcher/releases
